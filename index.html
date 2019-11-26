@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn" lang="zh-cn">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.59.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hellohtml &middot; 李梓瑞的个人空间</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="https://quiklyrun.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://quiklyrun.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://quiklyrun.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://quiklyrun.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://quiklyrun.github.io/"><h1>李梓瑞的个人空间</h1></a>
+      <p class="lead">
+       如果能重来，我要选李白 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://quiklyrun.github.io/">Home</a> </li>
+        
+      </ul>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Hellohtml</h1>
+  <time datetime=2019-11-26T13:32:37&#43;0800 class="post-date">Tue, Nov 26, 2019</time>
+  
+
+<h3 id="通过使用-vs-code-来进行-html-的基本操作">通过使用  <code>vs code</code>  来进行 <code>HTML</code> 的基本操作</h3>
+
+<h1 id="什么是html">什么是HTML？</h1>
+
+<ul>
+<li>HTML 全称 Hypertext Markup Language 「超文本<code>标记语言</code>」</li>
+<li><code>不是</code>编程编程语言 不做逻辑处理</li>
+
+<li><p>告诉浏览器如何构造网页</p>
+
+<h3 id="html-elenment示例如下">HTML Elenment示例如下：</h3>
+
+<pre><code>&lt;p&gt; XXXXXX&lt;/p&gt;
+</code></pre></li>
+
+<li><p><code>&lt; p &gt;  是起始标签  【Opening Tag】</code></p></li>
+
+<li><p><code>&lt; /p&gt; 是结束标签  【Closing Tag】</code></p></li>
+
+<li><p><code>“XXX” 是文本内容 【Conent】</code></p></li>
+</ul>
+
+<h3 id="html的基本构成示例">HTML的基本构成示例：</h3>
+
+<pre><code>&lt;!DOCTYPE html&gt;  （解释文档的类型）
+
+&lt;html&gt;
+      
+      &lt;head&gt;
+         &lt;title&gt; This is a page title &lt;/title&gt;  (这是标题栏上的网页标题)    
+      &lt;/head&gt;    
+      
+      &lt;body&gt;
+         &lt;h1&gt; This is a heading &lt;/h1&gt;  （标题文字）
+         &lt;p&gt; This is a garagraph &lt;/p&gt;  （文本段落）
+         &lt;p&gt; This is a garagraph &lt;/p&gt;  （文本段落）
+      &lt;/body&gt;
+
+&lt;/html&gt;
+</code></pre>
+
+<h1 id="块级元素和内联元素">块级元素和内联元素</h1>
+
+<h3 id="块级元素"><code>块级元素</code></h3>
+
+<p>例如 &lt; div&gt;  &lt; h1&gt;～&lt; h6&gt;  &lt; p&gt;
+- 在页面以块的形式展现
+- 出现在新的一行
+- 占全部宽度</p>
+
+<h3 id="内联元素"><code>内联元素</code></h3>
+
+<p>例如 &lt; a&gt; &lt; img&gt; &lt; em&gt; &lt; stong&gt;
+- 通常在块级元素内
+- 不会导致文本换行
+- 只占必要的部分宽度</p>
+
+<h1 id="html的实际操作">HTML的实际操作</h1>
+
+<h2 id="快捷键">快捷键</h2>
+
+<pre><code>“option” + “shift” + ⬇️ 
+</code></pre>
+
+<p><code>快速复制粘贴</code></p>
+
+<pre><code>&quot;command&quot; + &quot;?&quot;
+</code></pre>
+
+<p><code>生成注释样板</code></p>
+
+<h1 id="tag">Tag</h1>
+
+<pre><code>&lt;h1&gt; &lt;/h1&gt; ~ &lt;h6&gt; &lt;/h6&gt;
+</code></pre>
+
+<p><code>调整标题文字大小 （逐渐变小）</code></p>
+
+<pre><code>&lt;!--  --&gt;
+</code></pre>
+
+<p><code>注释</code></p>
+
+<pre><code>&lt;p&gt;lorem &lt; /p&gt;  
+</code></pre>
+
+<p><code>占位文字，随机单词进行占位，在lorem后面加数字可以固定单词数量</code></p>
+
+<pre><code>&lt;br&gt;
+</code></pre>
+
+<p><code>占一行空行</code></p>
+
+<pre><code>&lt;div style=&quot;margin-top:1000px&quot;&gt;&lt;/div&gt;
+</code></pre>
+
+<p><code>向下多1000px的空屏幕</code></p>
+
+<pre><code>&lt;hr&gt;
+</code></pre>
+
+<p><code>画一条水平线</code></p>
+
+<pre><code>&lt;stong&gt; &lt; /stong&gt;
+</code></pre>
+
+<p><code>加粗文字</code></p>
+
+<pre><code>&lt;em&gt; &lt; /em&gt;
+</code></pre>
+
+<p><code>斜体文字</code></p>
+
+<pre><code>&lt;a herf=&quot;https://google.com&quot;&gt;Lorem&lt;/a&gt; 
+</code></pre>
+
+<p><code>给“Lorem”文字加上超链接到google</code></p>
+
+<pre><code>&lt;a herf=&quot;https://google.com&quot;target=“_blank”&gt;Lorem&lt;/a&gt; 
+</code></pre>
+
+<p><code>会在新的窗口打开链接</code></p>
+
+<p>``</p>
+
+<h1 id="lists-列表">Lists 列表</h1>
+
+<h2 id="ul">UL</h2>
+
+<pre><code>&lt;ul&gt;
+     &lt;li&gt; 第 1 课&lt;/li&gt;
+     &lt;li&gt; 第 2 课&lt;/li&gt;
+     &lt;li&gt; 第 3 课&lt;/li&gt; 
+&lt;/ul&gt;
+</code></pre>
+
+<h3 id="ul-的效果">“ul”的效果：</h3>
+
+<h4 id="第一课">· 第一课</h4>
+
+<h4 id="第二课">· 第二课</h4>
+
+<h4 id="第三课">· 第三课</h4>
+
+<h2 id="ol">OL</h2>
+
+<pre><code>&lt;ol&gt;
+     &lt;li&gt; 第 1 课&lt;/li&gt;
+     &lt;li&gt; 第 2 课&lt;/li&gt;
+     &lt;li&gt; 第 3 课&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
+<h3 id="ol-的效果">“ol”的效果：</h3>
+
+<h4 id="1-第一课">1·第一课</h4>
+
+<h4 id="2-第二课">2·第二课</h4>
+
+<h4 id="3-第三课">3·第三课</h4>
+
+<h1 id="table-表格">Table 表格</h1>
+
+<pre><code>&lt;table&gt;
+     &lt;thead&gt;
+          &lt;tr&gt;
+             &lt;th&gt; First Name &lt;/th&gt;
+             &lt;th&gt; LAST  Name &lt;/th&gt;
+             &lt;th&gt; E mail     &lt;/th&gt;
+          &lt;/tr&gt;
+     &lt;/thead&gt;
+     &lt;tbody&gt;
+          &lt;tr&gt;
+             &lt;td&gt;Zirui&lt;/td&gt;
+             &lt;td&gt;lee&lt;/td&gt;
+             &lt;td&gt;xxx@abc.com&lt;/td&gt;
+          &lt;/tr&gt;
+     &lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+
+<h3 id="注释"><code>注释</code></h3>
+
+<h4 id="table-表格-1">&lt; table&gt;表格</h4>
+
+<h4 id="thead-表头">&lt; thead&gt;表头</h4>
+
+<h4 id="tr-横">&lt; tr&gt;   横</h4>
+
+<h4 id="th-表头内容">&lt; th&gt;   表头内容</h4>
+
+<h1 id="forms-表单">Forms 表单</h1>
+
+<pre><code>&lt;form action=“form.js” method=&quot;POST&quot;&gt;
+     &lt;div&gt;
+         &lt;label&gt;First Name&lt;/label&gt;
+         &lt;input type=&quot;text&quot; name=&quot;firstname&quot; placeholder=&quot;Enter First Name&quot;&gt; 
+     &lt;/div&gt;
+     &lt;div&gt;
+         &lt;label&gt;Last Name&lt;/label&gt;
+         &lt;input type=&quot;text&quot; name=&quot;lastname&quot; placeholder=&quot;Enter last Name&quot;&gt; 
+     &lt;/div&gt;
+     &lt;div&gt;
+         &lt;label&gt;E mail&lt;/label&gt;
+         &lt;input type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;Email&quot;&gt; 
+     &lt;/div&gt;
+     &lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Submit&quot;&gt;
+&lt;/form&gt;
+</code></pre>
+
+<h1 id="图片">图片</h1>
+
+<pre><code>&lt;img src=&quot; &quot; alt=&quot; &quot;&gt;
+</code></pre>
+
+<h4 id="src指向图片位置">src指向图片位置</h4>
+
+<h4 id="alt指向图片损坏时所提示的文字">alt指向图片损坏时所提示的文字</h4>
+
+<pre><code>&lt;img style=&quot;width: 100vw src=&quot; &quot; alt=&quot; &quot;&gt;
+</code></pre>
+
+<h4 id="当图片过大时-调整为占浏览器100-宽度">当图片过大时，调整为占浏览器100%宽度</h4>
+
+<h3 id="先整理这些-我会在实践过程中及时修改和补充"><code>先整理这些，我会在实践过程中及时修改和补充</code></h3>
+
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
